@@ -1,0 +1,49 @@
+.login-container {
+    h4 {
+        display: block;
+    }
+
+    img {
+        margin:0 auto;
+    }
+
+    input[type='text'],input[type='password'] {
+        display: block;
+        border: solid black 2px;
+        border-radius: 5px;
+        margin: 10px auto;
+        width: 250px;
+    }
+
+    .login-form button {
+        margin:0 auto;
+        display:block;
+        width:100%;
+        text-align: center;
+    }
+
+    .login-form .uk-inline{
+        width:100%;
+    }
+
+    .login-container img{
+        margin:0 auto
+    }
+
+    .login-box {
+        padding: 10px;
+        margin:20px auto;
+        border-radius: 5px;
+    }
+
+
+    @media(min-width:500px){
+        .login-box {
+            width:450px;
+        }
+    }
+
+    .btn {
+        width:250px !important;
+    }
+}
