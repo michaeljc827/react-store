@@ -1,4 +1,3 @@
-
 const token = localStorage.getItem('userToken')
 
 export const userInitialState = {
@@ -11,6 +10,7 @@ export const userInitialState = {
 export const userActions = {
     login: (state, args) => {
         const token = args.token
+
         localStorage.setItem("userToken", token);
         return {
             user: {
